@@ -1,0 +1,92 @@
+Normalized and bounded within [-1,1] averages of each variable for each activity and each subject.
+
+Col | Variable Name                           | Deinition
+____|_________________________________________|______________________________________				
+1 	Subject					Volunteer number
+2 	Activity				Activity performed
+3 	tBodyAcc.mean...X			Body acceleration mean on the X-axis
+4 	tBodyAcc.mean...Y			Body acceleration mean on the Y-axis
+5 	tBodyAcc.mean...Z			Body acceleration mean on the Z-axis
+6 	tGravityAcc.mean...X			Gravity acceleration mean on the X-axis
+7 	tGravityAcc.mean...Y			Gravity acceleration mean on the Y-axis
+8 	tGravityAcc.mean...Z			Gravity acceleration mean on the Z-axis
+9 	tBodyAccJerk.mean...X			Body acceleration jerk mean on the X-axis
+10 	tBodyAccJerk.mean...Y			Body acceleration jerk mean on the Y-axis
+11 	tBodyAccJerk.mean...Z			Body acceleration jerk mean on the Z-axis
+12 	tBodyGyro.mean...X			Body gyroscope angular velocity mean on the X-axis
+13 	tBodyGyro.mean...Y			Body gyroscope angular velocity mean on the Y-axis
+14 	tBodyGyro.mean...Z			Body gyroscope angular velocity mean on the Z-axis
+15 	tBodyGyroJerk.mean...X			Body gyroscope angular jerk mean on the X-axis
+16 	tBodyGyroJerk.mean...Y			Body gyroscope angular jerk mean on the Y-axis
+17 	tBodyGyroJerk.mean...Z			Body gyroscope angular jerk mean on the Z-axis
+18 	tBodyAccMag.mean..			Body acceleration magnitude mean
+19 	tGravityAccMag.mean..			Gravity acceleration magnitude mean
+20 	tBodyAccJerkMag.mean..			Body acceleration jerk magnitude mean
+21 	tBodyGyroMag.mean..			Body gyroscope angular velocity magnitude mean
+22 	tBodyGyroJerkMag.mean..			Body gyroscope jerk magnitude mean
+23 	fBodyAcc.mean...X			Body acceleration FFT mean on the X-axis
+24 	fBodyAcc.mean...Y			Body acceleration FFT mean on the Y-axis
+25 	fBodyAcc.mean...Z			Body acceleration FFT mean on the Z-axis
+26 	fBodyAcc.meanFreq...X			Body acceleration FFT frequncy mean on the X-axis
+27 	fBodyAcc.meanFreq...Y			Body acceleration FFT frequncy mean on the Y-axis
+28 	fBodyAcc.meanFreq...Z			Body acceleration FFT frequncy mean on the Z-axis
+29 	fBodyAccJerk.mean...X			Body acceleration jerk FFT mean on the X-axis
+30 	fBodyAccJerk.mean...Y			Body acceleration jerk FFT mean on the Y-axis
+31 	fBodyAccJerk.mean...Z			Body acceleration jerk FFT mean on the Z-axis
+32 	fBodyAccJerk.meanFreq...X		Body acceleration jerk FFT frequency mean on the X-axis
+33 	fBodyAccJerk.meanFreq...Y		Body acceleration jerk FFT frequency mean on the Y-axis
+34 	fBodyAccJerk.meanFreq...Z		Body acceleration jerk FFT frequency mean on the Z-axis
+35 	fBodyGyro.mean...X			Body gyroscope angular velocity FFT mean on the X-axis
+36 	fBodyGyro.mean...Y			Body gyroscope angular velocity FFT mean on the Y-axis
+37 	fBodyGyro.mean...Z			Body gyroscope angular velocity FFT mean on the Z-axis
+38 	fBodyGyro.meanFreq...X			Body gyroscope angular velocity FFT frequency mean on the X-axis
+39 	fBodyGyro.meanFreq...Y			Body gyroscope angular velocity FFT frequency mean on the Y-axis
+40 	fBodyGyro.meanFreq...Z			Body gyroscope angular velocity FFT frequency mean on the Z-axis
+41 	fBodyAccMag.mean..			Body acceleration FFT magnitude mean
+42 	fBodyAccMag.meanFreq..			Body acceleration FFT magnitude frequency mean
+43 	fBodyBodyAccJerkMag.mean..		Body acceleration jerk FFT magnitude mean
+44 	fBodyBodyAccJerkMag.meanFreq..		Body acceleration jerk FFT magnitude frequency mean
+45 	fBodyBodyGyroMag.mean..			Body gyroscope angular velocity FFT mean
+46 	fBodyBodyGyroMag.meanFreq..		Body gyroscope angular velocity FFT frequency mean
+47 	fBodyBodyGyroJerkMag.mean..		Body gyroscope angular velocity jerk FFT magnitude mean
+48 	fBodyBodyGyroJerkMag.meanFreq..		Body gyroscope angular velocity jerk FFT frequency mean
+49 	angle.tBodyAccMean.gravity.		Body gravity acceleration angle mean
+50 	angle.tBodyAccJerkMean..gravityMean.	Body gravity acceleration jerk angle mean
+51 	angle.tBodyGyroMean.gravityMean.	Body gyroscope angular velocity mean vs. gravity mean
+52 	angle.tBodyGyroJerkMean.gravityMean.	Body gyroscope angular jerk mean vs. gravity mean
+53 	angle.X.gravityMean.			Gravity acceleration angle mean on the X-axis
+54 	angle.Y.gravityMean.			Gravity acceleration angle mean on the Y-axis
+55 	angle.Z.gravityMean.			Gravity acceleration angle mean on the Z-axis
+56 	tBodyAcc.std...X			Body acceleration standard deviation on the X-axis
+57 	tBodyAcc.std...Y			Body acceleration standard deviation on the Y-axis
+58 	tBodyAcc.std...Z			Body acceleration standard deviation on the Z-axis
+59 	tGravityAcc.std...X			Gravity acceleration standard deviation on the X-axis
+60 	tGravityAcc.std...Y			Gravity acceleration standard deviation on the Y-axis
+61 	tGravityAcc.std...Z			Gravity acceleration standard deviation on the Z-axis
+62 	tBodyAccJerk.std...X			Body acceleration jerk standard deviation on the X-axis
+63 	tBodyAccJerk.std...Y			Body acceleration jerk standard deviation on the Y-axis
+64 	tBodyAccJerk.std...Z			Body acceleration jerk standard deviation on the Z-axis
+65 	tBodyGyro.std...X			Body gyroscope angular velocity standard deviation on the X-axis
+66 	tBodyGyro.std...Y			Body gyroscope angular velocity standard deviation on the Y-axis
+67 	tBodyGyro.std...Z			Body gyroscope angular velocity standard deviation on the Z-axis
+68 	tBodyGyroJerk.std...X			Body gyroscope angular jerk standard deviation on the X-axis
+69 	tBodyGyroJerk.std...Y			Body gyroscope angular jerk standard deviation on the Y-axis
+70 	tBodyGyroJerk.std...Z			Body gyroscope angular jerk standard deviation on the Z-axis
+71 	tBodyAccMag.std..			Body acceleration magnitude standard deviation
+72 	tGravityAccMag.std..			Gravity acceleration magnitude standard deviation
+73 	tBodyAccJerkMag.std..			Body acceleration jerk magnitude standard deviation
+74 	tBodyGyroMag.std..			Body gyroscope angular velocity magnitude standard deviation
+75 	tBodyGyroJerkMag.std..			Body gyroscope angular jerk magnitude standard deviation
+76 	fBodyAcc.std...X			Body acceleration FFT standard deviation on the X-axis
+77 	fBodyAcc.std...Y			Body acceleration FFT standard deviation on the Y-axis
+78 	fBodyAcc.std...Z			Body acceleration FFT standard deviation on the Z-axis
+79 	fBodyAccJerk.std...X			Body acceleration jerk FFT frequency standard deviation on the X-axis
+80 	fBodyAccJerk.std...Y			Body acceleration jerk FFT frequency standard deviation on the Y-axis
+81 	fBodyAccJerk.std...Z			Body acceleration jerk FFT frequency standard deviation on the Z-axis
+82 	fBodyGyro.std...X			Body gyroscope angular velocity FFT standard deviation on the X-axis
+83 	fBodyGyro.std...Y			Body gyroscope angular velocity FFT standard deviation on the Y-axis
+84 	fBodyGyro.std...Z			Body gyroscope angular velocity FFT standard deviation on the Z-axis
+85 	fBodyAccMag.std..			Body acceleration FFT magnitude standard deviation
+86 	fBodyBodyAccJerkMag.std..		Body acceleration jerk FFT magnitude standard deviation
+87 	fBodyBodyGyroMag.std..			Body gyroscope angular velocity FFT standard deviation
+88 	fBodyBodyGyroJerkMag.std..		Body acceleration jerk FFT magnitude standard deviation
